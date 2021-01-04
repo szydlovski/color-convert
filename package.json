@@ -1,0 +1,25 @@
+{
+  "name": "@szydlovski/color-convert",
+  "version": "0.1.3",
+  "description": "color conversion functions",
+  "main": "dev.js",
+  "scripts": {
+    "test": "node test/error.test.js",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "color",
+    "convert color"
+  ],
+  "type": "module",
+  "repository": "https://github.com/szydlovski/color-convert",
+  "author": "Kamil Szydlowski <kamil.szydlovski@gmail.com> (http://www.szydlovski.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.35.1"
+  },
+  "exports": {
+    ".": "./dist/bundle.js",
+    "./cjs": "./dist/bundle.cjs"
+  }
+}
