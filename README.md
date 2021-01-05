@@ -40,7 +40,7 @@ const { rgbToHsv, hslToLab, convertMap, getSupportedSpaces } = require('@szydlov
 | CIE-Lab | lab | (0÷100, -86÷98, -107÷94)*
 | CIE-LCh(ab) | lch | (0÷100, 0÷134, 0÷360)*
 
-<sub>\* All CIE conversions use a D65/2° standard illuminant `[95.047, 100, 108.883]`. The stated value ranges are approximate and refer to conversions from the sRGB spectrum.</sub>
+<sub>\* All CIE conversions use a D65/2° standard illuminant `[95.047, 100, 108.883]`. The stated value ranges are approximate and refer to conversions from the sRGB spectrum. Lab `a` and `b` components are typically clamped to -128÷127.</sub>
 
 # API
 
